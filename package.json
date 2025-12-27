@@ -1,0 +1,21 @@
+{
+  "name": "typescript-playground",
+  "version": "1.0.0",
+  "description": "A challenge-based playground for building TypeScript skills",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:watch": "vitest --watch",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": ["typescript", "learning", "practice"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "@vitest/ui": "^2.1.8",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
