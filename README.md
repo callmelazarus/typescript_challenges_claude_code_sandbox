@@ -7,6 +7,7 @@ A challenge-based learning environment for building real TypeScript skills. Each
 This playground focuses on **building skills, not just building things**. You'll practice:
 - Type system fundamentals (generics, utility types, type guards)
 - Real-world patterns (error handling, async patterns, design patterns)
+- Advanced type system features (conditional types, mapped types, recursion)
 - Test-driven development (write code that passes tests)
 
 ## Quick Start
@@ -80,24 +81,68 @@ challenges/
 │   ├── 02-generics-intro/
 │   ├── 03-utility-types/
 │   └── 04-type-guards/
-└── 02-real-world-patterns/
-    ├── 01-error-handling/
-    └── 02-async-patterns/
+├── 02-real-world-patterns/
+│   ├── 01-error-handling/
+│   ├── 02-async-patterns/
+│   ├── 03-builder-pattern/
+│   ├── 05-factory-pattern/
+│   ├── 06-strategy-pattern/
+│   ├── 07-observer-pattern/
+│   ├── 08-decorator-pattern/
+│   └── 09-adapter-pattern/
+└── 03-advanced-types/
+    ├── 01-conditional-types/
+    ├── 02-mapped-types/
+    ├── 03-template-literals/
+    ├── 04-type-inference/
+    ├── 05-recursive-types/
+    └── 06-building-utilities/
 ```
 
 ## Progression Guide
 
-### Start Here: Type Fundamentals
+### Start Here: Type Fundamentals (Challenges 1-4)
 
 1. **01-basic-types** - Type narrowing and union types
 2. **02-generics-intro** - Creating reusable, type-safe functions
 3. **03-utility-types** - Built-in TypeScript utilities
 4. **04-type-guards** - Custom type predicates
 
-### Then: Real-World Patterns
+### Then: Real-World Patterns (Challenges 5-12)
 
+**Functional Patterns:**
 5. **01-error-handling** - Result types and functional error handling
 6. **02-async-patterns** - Promises, async/await, retries
+
+**Design Patterns** (based on [Refactoring Guru](https://refactoring.guru/design-patterns)):
+7. **03-builder-pattern** - Construct complex objects step-by-step with fluent interfaces
+8. **05-factory-pattern** - Create objects without specifying exact classes
+9. **06-strategy-pattern** - Define interchangeable algorithms and behaviors
+10. **07-observer-pattern** - Implement pub/sub for event-driven systems
+11. **08-decorator-pattern** - Add behavior to objects dynamically
+12. **09-adapter-pattern** - Make incompatible interfaces work together
+
+### Advanced: Type System Mastery (Challenges 13-18)
+
+**For those ready to level up their TypeScript game:**
+
+13. **01-conditional-types** - Type-level if/else with `T extends U ? X : Y`
+14. **02-mapped-types** - Transform object properties programmatically
+15. **03-template-literals** - Type-safe string manipulation and generation
+16. **04-type-inference** - Extract types with the `infer` keyword
+17. **05-recursive-types** - Handle deeply nested structures
+18. **06-building-utilities** - Build your own utility types (capstone!)
+
+**Recommended approach:**
+- Complete Type Fundamentals first
+- Do at least a few Real-World Patterns
+- Then tackle Advanced Types when you're ready for a challenge
+
+**Note:** Advanced Types are optional but highly valuable for:
+- Library authors
+- Framework developers
+- Those wanting to master TypeScript
+- Anyone curious about how the type system really works
 
 ## Learning Tips
 
