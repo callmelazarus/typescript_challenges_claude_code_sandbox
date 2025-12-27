@@ -2,6 +2,20 @@
 
 This section teaches practical patterns you'll use in professional TypeScript development. The patterns are organized by category and include both functional patterns and classic design patterns.
 
+## Prerequisites
+
+**Recommended:** Complete **01-type-fundamentals** first.
+
+You should understand:
+- Union types and type narrowing
+- Generics and type parameters
+- Built-in utility types (Partial, Pick, etc.)
+- Type guards
+
+**New to TypeScript?** Complete these sections first:
+1. `00-typescript-basics/` - Language fundamentals
+2. `01-type-fundamentals/` - Type system basics
+
 ## Pattern Categories
 
 ### Functional Patterns

@@ -13,9 +13,20 @@ After completing this section, you'll be able to:
 
 ## Prerequisites
 
-You should complete:
-- **Type Fundamentals** (01-type-fundamentals)
-- At least some **Real-World Patterns** (02-real-world-patterns)
+**Required:** Complete **01-type-fundamentals** before starting this section.
+
+**Recommended:** Complete at least a few challenges from **02-real-world-patterns**.
+
+You should be comfortable with:
+- Union types, generics, and utility types
+- Type guards and type narrowing
+- Basic TypeScript patterns
+
+**Complete learning path:**
+1. `00-typescript-basics/` - Language fundamentals (if new to JS/TS)
+2. `01-type-fundamentals/` - Type system basics (required)
+3. `02-real-world-patterns/` - Apply types in practice (recommended)
+4. `03-advanced-types/` - You are here!
 
 ## Challenge Overview
 

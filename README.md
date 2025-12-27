@@ -20,7 +20,9 @@ npm install
 
 ### 2. Pick a Challenge
 
-Start with the first one: `challenges/01-type-fundamentals/01-basic-types/`
+**New to JavaScript/TypeScript?** Start with: `challenges/00-typescript-basics/01-functions-scope/`
+
+**Already know JS?** Start with: `challenges/01-type-fundamentals/01-basic-types/`
 
 ### 3. Read the README
 
@@ -73,6 +75,12 @@ Then in your editor:
 
 ```
 challenges/
+├── 00-typescript-basics/
+│   ├── 01-functions-scope/
+│   ├── 02-arrays-iteration/
+│   ├── 03-objects-destructuring/
+│   ├── 04-classes-oop/
+│   └── 05-async-fundamentals/
 ├── 01-type-fundamentals/
 │   ├── 01-basic-types/
 │   │   ├── README.md          # Challenge description
@@ -100,6 +108,20 @@ challenges/
 ```
 
 ## Progression Guide
+
+### Optional: TypeScript/JavaScript Basics (Challenges 0.1-0.5)
+
+**Start here if you're new to JavaScript/TypeScript or want to refresh fundamentals:**
+
+0.1. **01-functions-scope** - Functions, closures, hoisting, and `this`
+0.2. **02-arrays-iteration** - Array methods (map, filter, reduce, etc.)
+0.3. **03-objects-destructuring** - Object manipulation and destructuring
+0.4. **04-classes-oop** - Classes, inheritance, and OOP basics
+0.5. **05-async-fundamentals** - Promises, async/await, error handling
+
+**Skip this section if:** You're comfortable with modern JavaScript (ES6+), array methods, and async programming.
+
+---
 
 ### Start Here: Type Fundamentals (Challenges 1-4)
 
@@ -230,4 +252,8 @@ This playground gives you a safe space to make mistakes, learn from them, and bu
 
 ---
 
-Happy learning! Start with `challenges/01-type-fundamentals/01-basic-types/` and work your way through.
+Happy learning!
+
+**New to JS/TS?** Start with `challenges/00-typescript-basics/01-functions-scope/`
+
+**Ready for types?** Start with `challenges/01-type-fundamentals/01-basic-types/`
